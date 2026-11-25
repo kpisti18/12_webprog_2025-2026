@@ -58,6 +58,8 @@ function fixImageUrl(url) {
         return ''
     }
 
-    return url
-        .replace('http://hp-api.herokuapp.com', 'https://hp-api.onrender.com')
+    return url.replace(
+        'http://hp-api.herokuapp.com/images/',
+        'https://ik.imagekit.io/hpapi/'
+    )
 }

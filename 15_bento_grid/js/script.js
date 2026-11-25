@@ -1,4 +1,4 @@
-const BASE_URL = 'http://nodejs1.dszcbaross.edu.hu:21003'
+const BASE_URL = 'https://nodejs403.dszcbaross.edu.hu'
 const API_URL = 'https://nodejs403.dszcbaross.edu.hu/api/allPictures'
 
 window.addEventListener('DOMContentLoaded', fetchPictures)
